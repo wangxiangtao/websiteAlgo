@@ -1,0 +1,16 @@
+We accepts and accepts all major Paypal , T\/T , Westen Union , MoneyGram .
+/START we/PRP accept/VB and/O accept/VB all/O major/O paypal/PAYMENTGATEWAY ,/O t\/t/O ,/O westen union/PAYMENTGATEWAY ,/O moneygram/PAYMENTGATEWAY ./O END/ENDWITHMATCH
+What 's your usual payment term for orders ?
+/START what/WHWORD be/O you/O usual/O payment/KEYWORD term/NN for/O order/VB ?/O END/ENDWITHMATCH
+payment method all payment can be done by TT or western union or LC .
+/START payment/KEYWORD method/NN all/O payment/O can/O be/O do/O by/O tt/PAYMENTGATEWAY or/O western union/PAYMENTGATEWAY or/O lc/PAYMENTGATEWAY ./O END/ENDWITHMATCH
+PAYMENT TERMS : Payment by T\/T in advance .
+/START payment/KEYWORD term/NN :/O payment/O by/O t\/t/O in/O advance/O ./O END/ENDWITHMATCH
+Q4 : I had make the `` payment '' via by TT in advance how long will it take ship out ?
+/START q4/O :/O i/O have/O make/VB the/O ``/O payment/O ''/O via/IN by/IN tt/PAYMENTGATEWAY in/O advance/O how/O long/O will/O it/O take/O ship/O out/O ?/O END/ENDWITHMATCH
+Which kinds of payment can you accept ?
+/START which/WHWORD kind/O of/O payment/KEYWORD can/O you/O accept/VB ?/O END/ENDWITHMATCH
+payment: paypal west union TT
+/START payment/KEYWORD :/PUNCTUATION paypal/PAYMENTGATEWAY west union/PAYMENTGATEWAY tt/PAYMENTGATEWAY END/ENDWITHMATCH
+paypal west union TT
+/START paypal/PAYMENTGATEWAY west union/PAYMENTGATEWAY tt/PAYMENTGATEWAY END/ENDWITHOUTMATCH

@@ -1,0 +1,6 @@
+NNS <-- prep_of <-- NN --> dep --> CD 
+NNS --> num --> NNS --> number --> CD 
+NNS --> dep --> CD 
+NNS --> num --> CD 
+NN <-- prep_of <-- NN --> dep --> CD 
+NN --> num --> CD 
